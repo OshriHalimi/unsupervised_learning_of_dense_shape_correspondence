@@ -1,12 +1,11 @@
-#Implementation of the paper:
+Implementation of the paper: "Unsupervised Learning Of Dense Shape Correspondence"
 
-"Unsupervised Learning Of Dense Shape Correspondence"
 Authors: Oshri Halimi, Or Litany, Emanuele Rodolà, Alex Bronstein, Ron Kimmel
 
 
 link to the paper: https://arxiv.org/pdf/1812.02415.pdf
 
-If you use this code please cite the paper.
+If you use this code, please cite the paper.
 
 @article{halimi2018self,
   title={Self-supervised Learning of Dense Shape Correspondence},
