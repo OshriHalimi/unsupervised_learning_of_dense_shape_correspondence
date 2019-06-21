@@ -5,6 +5,8 @@ Authors: Oshri Halimi, Or Litany, Emanuele Rodolà, Alex Bronstein, Ron Kimmel
 
 link to the paper: https://arxiv.org/pdf/1812.02415.pdf
 
+This repository will soon be updated with code to additional experiments.
+
 If you use this code, please cite the paper.
 
 @article{halimi2018self,
