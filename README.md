@@ -9,12 +9,10 @@ This repository will soon be updated with code to additional experiments.
 
 If you use this code, please cite the paper.
 
-@article{halimi2018self,
-
-  title={Self-supervised Learning of Dense Shape Correspondence},
-  
-  author={Halimi, Oshri and Litany, Or and Rodol{`a}, Emanuele and Bronstein, Alex and Kimmel, Ron},
-  
-  journal={arXiv preprint arXiv:1812.02415},
-  
-  year={2018}}
+@inproceedings{halimi2019unsupervised,
+  title={Unsupervised Learning of Dense Shape Correspondence},
+  author={Halimi, Oshri and Litany, Or and Rodola, Emanuele and Bronstein, Alex M and Kimmel, Ron},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4370--4379},
+  year={2019}
+}
