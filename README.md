@@ -38,5 +38,6 @@ Run **train_FMnet_self_supervised.py**.
 When the train is finished the checkpoint file will be saved in **\Results\artist_checkpoint**.
 
 ### Predicting the correspondence
-Run **test_FMnet_self_supervised.py**
+First create an empty folder with the name **\unsupervised_artist_results** under the **\\Results** directory.
+Then, run **test_FMnet_self_supervised.py**. The netowrk predictions will be saved in **\Results\unsupervised_artist_results**.
 
