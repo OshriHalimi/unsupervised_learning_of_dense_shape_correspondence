@@ -26,9 +26,16 @@ In this experiment we show how the network can be optimized on a single pair of 
 The code for this experiment is located in the folder \Single Pair Experiment. 
 ### Data
 The 3D models we use in this experiment are provided in the folder \artist_models.
+Note that the ground-truth crrespondences are unknown for this pair.
 
 ### Preprocessing
 First create an empty folder with the name \tf_artist in the base directory \Single Pair Experiment.
 Then run the script preprocess_artist_model.mat.
 This will create the input data to the network in the folder \tf_artist, namely the geodesic distance matrices, the LBO eigenfunctions and the initial SHOT descriptors will be calculated.
+
+### Training the netowrk
+Run train_FMnet_self_supervised.py
+
+### Predicting the correspondence
+
 
