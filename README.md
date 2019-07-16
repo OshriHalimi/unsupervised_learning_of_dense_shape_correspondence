@@ -1,6 +1,6 @@
 # "Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)
 
-**Authors: Oshri Halimi, Or Litany, Emanuele Rodolֳ , Alex Bronstein, Ron Kimmel**
+**Authors: Oshri Halimi, Or Litany, Emanuele Rodola, Alex Bronstein, Ron Kimmel
 
 
 link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html
