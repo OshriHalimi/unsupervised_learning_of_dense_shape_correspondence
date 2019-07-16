@@ -35,7 +35,8 @@ This will create the input data to the network in the folder \tf_artist, namely 
 
 ### Training the netowrk
 Run train_FMnet_self_supervised.py
+When the train is finished the checkpoint file will be saved in \Results\artist_checkpoint.
 
 ### Predicting the correspondence
-
+Run test_FMnet_self_supervised.py
 
