@@ -19,7 +19,7 @@ link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Un
 
 These instructions will guide you how to run the experiments that appear in the paper.
 Each folder contains the code and data for a specific experiment.
-The repository is still updating, for now I provide the code for the single-pair experiment, I intend to finish uploading the whole code very soon. For any questions regarding the code/paper, please contact me: [mailto](mailto:oshri.halimi@gmail.com)
+The repository is still updating, for now I provide the code for the single-pair experiment, I intend to finish uploading the whole code very soon. For any questions regarding the code/paper, please contact me: **oshri.halimi@gmail.com**
 
 ## Single Pair Experiment (Self-suspervised learning of dense shape correspondence)
 In this experiment we show how the network can be optimized on a single pair of shapes and finally predict the correspondence.
