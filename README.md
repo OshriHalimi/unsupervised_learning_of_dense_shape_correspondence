@@ -22,5 +22,8 @@ Each folder contains the code and data for a specific experiment.
 The repository is still updating, for now I provide the code for the single-pair experiment.
 
 ### Single Pair Experiment (Self-suspervised learning of dense shape correspondence)
+In this experiment we show how the network can be optimized on a single pair of shapes and finally predict the correspondence.
+
+## Preprocessing
 
 
