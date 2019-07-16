@@ -42,6 +42,6 @@ First create an empty folder with the name **\unsupervised_artist_results** unde
 Then, run **test_FMnet_self_supervised.py**. The network predictions will be saved in **\Results\unsupervised_artist_results**.
 
 ### Visualization
-To visualize the results run **visualize_results.mat**.
-The folder contains additional script files: **visualize_unsupervised_network_results.mat** and **visualize_supervised_network_results.mat** that visualize the correspondence predicted by the unsupervised network and by the supervised network trained on faust synthetic human shapes. Further details for the single-pair experiment can be found in the paper.
+To visualize the results run **visualize_results.m**.
+The folder contains additional script files: **visualize_unsupervised_network_results.m** and **visualize_supervised_network_results.m** that visualize the correspondence predicted by the unsupervised network and by the supervised network trained on faust synthetic human shapes. We provide the final predictions with each method in the folders **Unsupervised Network Results** and **Supervised Network Results**. Additionally we provide code for comparison with few axiomatic algorithms. To calculate the predictions with SGMDS or FM+SHOT algorithm, run **SGMDS.m** or **SHOT_FM**. Further details for the single-pair experiment can be found in the paper.
 
