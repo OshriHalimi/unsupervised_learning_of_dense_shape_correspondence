@@ -41,3 +41,7 @@ When the train is finished the checkpoint file will be saved in **\Results\artis
 First create an empty folder with the name **\unsupervised_artist_results** under the **\\Results** directory.
 Then, run **test_FMnet_self_supervised.py**. The network predictions will be saved in **\Results\unsupervised_artist_results**.
 
+### Visualization
+To visualize the results run **visualize_results.mat**.
+The folder contains additional script files: **visualize_unsupervised_network_results.mat** and **visualize_supervised_network_results.mat** that visualize the correspondence predicted by the unsupervised network and by the supervised network trained on faust synthetic human shapes. Further details for the single-pair experiment can be found in the paper.
+
