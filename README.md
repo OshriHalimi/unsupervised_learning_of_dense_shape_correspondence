@@ -2,6 +2,7 @@
 
 **Authors: Oshri Halimi, Or Litany, Emanuele Rodola, Alex Bronstein, Ron Kimmel**
 
+![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Picture1.png)
 
 link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html
 
@@ -14,7 +15,6 @@ link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Un
   pages={4370--4379},
   year={2019}
 }
-![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Picture1.png)
 ## Getting Started
 
 These instructions will guide you how to run the experiments that appear in the paper.
