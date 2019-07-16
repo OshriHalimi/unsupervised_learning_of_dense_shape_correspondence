@@ -8,13 +8,13 @@ link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Un
 
 **If you use this code, please cite the paper.**
 ```python
-@inproceedings{halimi2019unsupervised,
-  title={Unsupervised Learning of Dense Shape Correspondence},
-  author={Halimi, Oshri and Litany, Or and Rodola, Emanuele and Bronstein, Alex M and Kimmel, Ron},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  pages={4370--4379},
-  year={2019}
-}
+  @inproceedings{halimi2019unsupervised,
+    title={Unsupervised Learning of Dense Shape Correspondence},
+    author={Halimi, Oshri and Litany, Or and Rodola, Emanuele and Bronstein, Alex M and Kimmel, Ron},
+    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+    pages={4370--4379},
+    year={2019}
+  }
 ```
 ## Getting Started
 
