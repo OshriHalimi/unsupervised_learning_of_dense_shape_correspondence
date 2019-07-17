@@ -30,7 +30,7 @@ The 3D models we use in this experiment are provided in the folder **\artist_mod
 Note that the ground-truth crrespondences are unknown for this pair.
 
 ### Preprocessing
-First create an empty folder with the name **\tf_artist** in the base directory **\Single Pair** Experiment.
+First create an empty folder with the name **\tf_artist** in the base directory **\Single Pair Experiment**.
 Then run the script preprocess_artist_model.mat.
 This will create the input data to the network in the folder **\tf_artist**, namely the geodesic distance matrices, the LBO eigenfunctions and the initial SHOT descriptors will be calculated.
 
