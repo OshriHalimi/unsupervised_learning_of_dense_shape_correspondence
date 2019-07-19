@@ -54,3 +54,5 @@ The code for this experiment is located in the folder **\Learning Correspondence
 The 3D models we use in this experiment are provided in the folder **\faust_synthetic\shapes**.
 We provide the original .ply files, as well as our generated .mat files. This code processes 3D models with the specific format of the .mat files, containing the vertices coordinates in the field **VERT**, the faces triangulation in the field **TRIV**, and the number of vertices and faces in the fields **n** and **m**, respectively. To convert the 3D model .ply files to this specific .mat format, please run the script **convert_ply_to_mat.m** in the folder that contains the .ply files (in this case we already ran it in the folder **\faust_synthetic\shapes** and provided the generated .mat files). 
 
+### Preprocessing
+1. First, for each shape in faust synthetic shape collection we have to calculate the geodesic distance matrix.
