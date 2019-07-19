@@ -23,7 +23,7 @@ Each folder contains the code and data for a specific experiment.
 The repository is still updating, for now I provide the code for the single-pair experiment, I intend to finish uploading the whole code very soon. For any questions regarding the code/paper, please contact me: **oshri.halimi@gmail.com**
 
 ## Single Pair Experiment (Self-supervised learning regime)
-![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Capture.jpg)
+![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Capture.PNG)
 In this experiment we show how the network can be optimized on a single pair of shapes and finally predict the correspondence.
 The code for this experiment is located in the folder **\Single Pair Experiment**. 
 ### Data
