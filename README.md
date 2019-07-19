@@ -48,7 +48,7 @@ The folder contains additional script files: **visualize_unsupervised_network_re
 
 ## Learning Correspondence of Synthetic Shapes
 In this experiment we demostrate unsupervised learning of dense shape correspondence on a dataset of synthetic human shapes (MPI-FAUST). Link to the dataset: http://faust.is.tue.mpg.de/.
-The code for this experiment is located in the folder **\Learning** **Correspondence** **of** **Synthetic** **Shapes\**. 
+The code for this experiment is located in the folder **\Learning** **Correspondence** **of** **Synthetic** **Shapes\** . 
 
 ### Data
 The 3D models we use in this experiment are provided in the folder **\faust_synthetic\shapes**.
