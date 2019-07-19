@@ -56,3 +56,4 @@ We provide the original .ply files, as well as our generated .mat files. This co
 
 ### Preprocessing
 1. First, for each shape in faust synthetic shape collection we have to calculate the geodesic distance matrix.
+To achieve this, please run the script **\faust_calc_distance_matrix.m**. This script will calculate the geodesic ditance matrices and store them in a new folder **\faust_synthetic\distance_matrix**.
