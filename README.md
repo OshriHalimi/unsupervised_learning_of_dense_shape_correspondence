@@ -46,3 +46,9 @@ Then, run **test_FMnet_self_supervised.py**. The network predictions will be sav
 To visualize the results run **visualize_results.m**.
 The folder contains additional script files: **visualize_unsupervised_network_results.m** and **visualize_supervised_network_results.m** that visualize the correspondence predicted (1) by the unsupervised network that was trained with the (unannotated) single pair, and (2) by the supervised network that was trained on faust synthetic human shapes. We provide the final predictions with each of these methods in the folders **Unsupervised Network Results** and **Supervised Network Results**. Additionally we provide code for comparison with few axiomatic algorithms. To calculate the predictions with SGMDS or FM+SHOT algorithm, run **SGMDS.m** or **SHOT_FM.m**, respectively. Further details for the single-pair experiment are provided in the paper.
 
+## Learning Correspondence of Synthetic Shapes
+In this experiment we demostrate unsupervised learning of dense shape correspondence on a dataset of synthetic human shapes (MPI-FAUST http://faust.is.tue.mpg.de/)
+The code for this experiment is located in the folder **\Learning Correspondence of Synthetic Shapes\**. 
+### Data
+The 3D models we use in this experiment are provided in the folder **\faust_synthetic\shapes**.
+Note that the ground-truth crrespondences are unknown for this pair.
