@@ -52,4 +52,4 @@ The code for this experiment is located in the folder **\Learning Correspondence
 
 ### Data
 The 3D models we use in this experiment are provided in the folder **\faust_synthetic\shapes**.
-Note that the ground-truth crrespondences are unknown for this pair.
+
