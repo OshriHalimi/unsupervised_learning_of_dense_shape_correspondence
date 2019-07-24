@@ -73,6 +73,6 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 ...
 
 ## Learning Correspondence of Real Scans
-<img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" class="center" />
+<img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" align="middle" />
 
 ### To be continued ...
