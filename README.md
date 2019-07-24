@@ -52,7 +52,7 @@ Then, run **test_FMnet_self_supervised.py**. The network predictions will be sav
 To visualize the results run **visualize_results.m**.
 The folder contains additional script files: **visualize_unsupervised_network_results.m** and **visualize_supervised_network_results.m** that visualize the correspondence predicted (1) by the unsupervised network that was trained with the (unannotated) single pair, and (2) by the supervised network that was trained on faust synthetic human shapes. We provide the final predictions with each of these methods in the folders **Unsupervised Network Results** and **Supervised Network Results**. Additionally we provide code for comparison with few axiomatic algorithms. To calculate the predictions with SGMDS or FM+SHOT algorithm, run **SGMDS.m** or **SHOT_FM.m**, respectively. Further details for the single-pair experiment are provided in the paper.
 
-## Learning Correspondence of Synthetic Shapes
+## Learning Correspondence of Synthetic Shapes (Unsupervised)
 
 ![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/synFaustMen.jpg)
 
@@ -72,7 +72,7 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 ### Training the network
 ...
 
-## Learning Correspondence of Real Scans
+## Learning Correspondence of Real Scans (Unsupervised)
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" />
 </p>
