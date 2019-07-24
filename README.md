@@ -76,4 +76,5 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" />
 </p>
+
 ### To be continued ...
