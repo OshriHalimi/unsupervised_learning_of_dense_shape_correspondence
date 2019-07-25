@@ -78,7 +78,9 @@ To evaluate the error curve for a specific pair of shapes, you need the the pred
     errs = calc_geo_err(matches, gt_matches, D_model);
     curve = calc_err_curve(errs, 0:0.001:1.0)/100;
 ```
-The functions **calc_geo_err** and **calc_err_curve** are located in the folder **\Tools**. Here, **matches** is a vector such that ```matches[i]=j```
+The functions **calc_geo_err** and **calc_err_curve** are located in the folder **\Tools**. 
+Here, **matches** is a vector such that 
+```matches[i]=j```
 
 where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the algorithm result. Next, **gt_matches** is a vector such that 
 
