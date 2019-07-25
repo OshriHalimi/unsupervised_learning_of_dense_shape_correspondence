@@ -83,9 +83,9 @@ The functions **calc_geo_err** and **calc_err_curve** are located in the folder 
 Here, **matches** is a vector such that 
 ```matches[i]=j```
 
-where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the algorithm result. Next, **gt_matches** is a vector such that 
+where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the algorithm result. 
 
-```gt_matches[i]=j```
+Next, **gt_matches** is a vector such that ```gt_matches[i]=j```
 
 where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the ground truth.
 For example, in synthetic faust: 
