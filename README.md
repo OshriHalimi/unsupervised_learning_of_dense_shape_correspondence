@@ -23,7 +23,7 @@ Structured Prediction for Dense Shape Correspondence" (ICCV 2017)**, for which t
 
 ### Code organization
 Each folder contains the code and data for a specific experiment.
-The repository is still updating, for now I provide the code for the single-pair experiment, and I intend to finish uploading the whole code very soon. 
+The repository is still updating, and I intend to finish organizing and uploading the whole code very soon :)
 ### Contact Information
 For any questions regarding the code/paper, please contact me: **oshri.halimi@gmail.com**
 
