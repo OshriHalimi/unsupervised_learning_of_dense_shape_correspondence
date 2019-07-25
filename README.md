@@ -72,6 +72,34 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 ### Training the network
 ...
 
+### Geodesic error evaluation
+To evaluate the error curve for a specific pair of shapes, you need the the predicted correspondence between the shapes, the ground truth correspondence, and the geodesic distance matrix of the target shape. To calculate the error curve use the command (matlab):
+```
+    errs = calc_geo_err(matches, gt_matches, D_model);
+    curve = calc_err_curve(errs, 0:0.001:1.0)/100;
+}
+```
+The functions **calc_geo_err** and **calc_err_curve** are located in the folder **\Tools**. Here, **matches** is a vector such that ```matches[i]=j```
+
+where i is a source vertex and j is the corresponding vertex in the target shape. For synthetic faust: 
+```gt_matches = 1:6890;```
+Finally, **D_model** is the distance matrix of the target shape.
+
+To evaluate the error curve for a collection of shapes you should average the error curves of all pairs of shapes, as follows:
+```
+CURVES = zeros(N_pairs,1001);
+for i=1:NumberOfPairs
+   %here you calculate matches, gt_matches and D_model 
+   ...
+   errs = calc_geo_err(matches, gt_matches, D_model);
+   curve = calc_err_curve(errs, 0:0.001:1.0)/100;
+      CURVES(i,:) = curve;
+end
+
+avg_curve_unsupervised = sum(CURVES,1)/ NumberOfPairs  ;
+plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
+```
+
 ## Learning Correspondence of Real Scans (Unsupervised)
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" />
