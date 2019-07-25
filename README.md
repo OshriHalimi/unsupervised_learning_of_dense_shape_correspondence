@@ -70,7 +70,7 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 2. Next, for each shape we'll calculate LBO eigenfunctions and the initial SHOT descriptors. Please run the script **\faust_preprocess_shapes.m**. The results will be saved in a new folder **\faust_synthetic\network_data**.
 
 ### Training the network
-...
+TODO
 
 ### Geodesic error evaluation
 To evaluate the error curve for a specific pair of shapes, you need the the predicted correspondence between the shapes, the ground truth correspondence, and the geodesic distance matrix of the target shape. To calculate the error curve use the command (matlab):
@@ -113,4 +113,5 @@ plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gc
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" />
 </p>
 
+TODO
 ### To be continued ...
