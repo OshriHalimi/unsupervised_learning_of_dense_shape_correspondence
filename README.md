@@ -80,7 +80,10 @@ To evaluate the error curve for a specific pair of shapes, you need the the pred
 ```
 The functions **calc_geo_err** and **calc_err_curve** are located in the folder **\Tools**. Here, **matches** is a vector such that ```matches[i]=j```
 
-where i is a source vertex and j is the corresponding vertex in the target shape. For synthetic faust: 
+where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the algorithm result. Next, **gt_matches** is a vector such that ```matches[i]=j```
+
+where **i** is a source vertex and **j** is the corresponding vertex in the target shape, according to the ground truth.
+For example, in synthetic faust: 
 ```gt_matches = 1:6890;```
 Finally, **D_model** is the distance matrix of the target shape.
 
@@ -88,7 +91,7 @@ To evaluate the error curve for a collection of shapes you should average the er
 ```
 CURVES = zeros(N_pairs,1001);
 for i=1:NumberOfPairs
-   %here you calculate matches, gt_matches and D_model 
+   %here you calculate matches, gt_matches and D_model, for each pair
    ...
    errs = calc_geo_err(matches, gt_matches, D_model);
    curve = calc_err_curve(errs, 0:0.001:1.0)/100;
