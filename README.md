@@ -101,10 +101,10 @@ for i=1:NumberOfPairs
    ...
    errs = calc_geo_err(matches, gt_matches, D_model);
    curve = calc_err_curve(errs, 0:0.001:1.0)/100;
-      CURVES(i,:) = curve;
+   CURVES(i,:) = curve;
 end
 
-avg_curve_unsupervised = sum(CURVES,1)/ NumberOfPairs  ;
+avg_curve_unsupervised = sum(CURVES,1)/ NumberOfPairs;
 plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
 ```
 
