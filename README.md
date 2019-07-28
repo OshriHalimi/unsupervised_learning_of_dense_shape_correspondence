@@ -71,6 +71,7 @@ To achieve this, please run the script **\faust_calc_distance_matrix.m**. This s
 
 ### Training the network
 To train the network, please run **train_FMnet_unsupervised.py**. The trained network will be saved in the folder **\Results\train_faust_synthetic**. You can edit the number of training iterations, defined in **train_FMnet_unsupervised.py**, here we use 3K mini-batch iterations. 
+* 
 #### Training loss
 During the training, we optimize the unsupervised loss and monitor the supervised loss for analysis purpose. When the training is finished, both losses are saves in **\Results\train_faust_synthetic\training_error.mat**. To visualize the losses during the training process - run the matlab script **visualize_synthetic_faust_test_results.m**. This script will produce a figure similar to figure 3 in the paper.
 
