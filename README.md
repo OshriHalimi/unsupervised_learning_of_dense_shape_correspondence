@@ -66,6 +66,8 @@ We provide the original .ply files, as well as our generated .mat files. This co
 ### Preprocessing
 1. First, for each shape in faust synthetic shape collection we have to calculate the geodesic distance matrix.
 To achieve this, please run the script **\faust_calc_distance_matrix.m**. This script will calculate the geodesic distance matrices and store them in a new folder **\faust_synthetic\distance_matrix**. This processing is done in parallel, using multiple matlab workers.
+To view the geodesic distance from a source point, use the script **view_distance_matrix**. The result should be similar to this:
+
 
 2. Next, for each shape we'll calculate LBO eigenfunctions and the initial SHOT descriptors. Please run the script **\faust_preprocess_shapes.m**. The results will be saved in a new folder **\faust_synthetic\network_data**.
 
