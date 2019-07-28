@@ -75,10 +75,10 @@ To train the network, please run **train_FMnet_unsupervised.py**. The trained ne
 During the training, we optimize the unsupervised loss and monitor the supervised loss for analysis purpose. When the training is finished, both losses are saves in **\Results\train_faust_synthetic\training_error.mat**. To visualize the losses during the training process - run the matlab script **visualize_synthetic_faust_test_results.m**. This script will produce a figure similar to figure 3 in the paper.
 
 ### Predicting the correspondence on the test pairs
-First create a list of all test pairs by calling the matlab script **create_test_pairs.m**. To test the network, please run **test_FMnet_unsupervised.py**, the test results will be saved in the folder **\Results\test_faust_synthetic\**.
+First create a list of all test pairs by calling the matlab script **create_test_pairs.m**. To test the network, please run **test_FMnet_unsupervised.py**, the test results will be saved in the folder **Results\test_faust_synthetic\**.
 
 ### Visualization
-To visualize the correspondence of a specific test pair, run the matlab script **visualize_synthetic_faust_test_results.n**.
+To visualize the correspondence of a specific test pair, run the matlab script **visualize_synthetic_faust_test_results.m**.
 Note that you should edit the indices of the test pair you wish to visualize in rows: 7,8,10.
 
 ### Geodesic error evaluation
