@@ -27,7 +27,7 @@ flags.DEFINE_string('models_dir', './faust_synthetic/network_data/', '')
 flags.DEFINE_string('dist_maps', './faust_synthetic/distance_matrix/', '')
 
 flags.DEFINE_string('log_dir', './Results/train_faust_synthetic', 'directory to save models and results')
-flags.DEFINE_integer('max_train_iter', 100, '')
+flags.DEFINE_integer('max_train_iter', 3000, '')
 flags.DEFINE_integer('save_summaries_secs', 60, '')
 flags.DEFINE_integer('save_model_secs', 1200, '')
 flags.DEFINE_string('master', '', '')
