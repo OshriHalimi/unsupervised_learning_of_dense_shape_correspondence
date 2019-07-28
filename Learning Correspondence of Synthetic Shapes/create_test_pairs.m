@@ -14,6 +14,6 @@ fileID = fopen('test_pairs.txt','w');
 for i=1:size(pairs_list,1)
     id1 = sprintf('%03d', pairs_list(i,1));
     id2 = sprintf('%03d', pairs_list(i,2));
-    fprintf(fileID,['tr_reg_shuffled_', id1, '.mat tr_reg_shuffled_' ,id2, '.mat\n']);
+    fprintf(fileID,['tr_reg_', id1, '.mat tr_reg_' ,id2, '.mat\n']);
 end
 fclose(fileID)

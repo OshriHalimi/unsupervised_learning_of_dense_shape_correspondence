@@ -31,7 +31,7 @@ def get_test_pair(part_fname, model_fname):
 	
 def get_test_list():
 	test_pairs = []
-	f = open('./Data/test_pairs.txt',mode='r', encoding='utf-8-sig')
+	f = open('./test_pairs.txt',mode='r', encoding='utf-8-sig')
 	for line in f:
 		test_pairs.append(line.split())
 	f.close()
@@ -87,7 +87,7 @@ def run_test():
 		params_to_save['C_est'] = Ct_est_.transpose([0, 2, 1])
 		params_to_save['softCorr'] = softCorr_
 
-		sio.savemat('./Results/faust_test_unsupervised_separate_subsampling/' + 'test_list_{}_{}.mat'.format(test_pair[0][7:10], test_pair[1][7:10]), params_to_save)
+		sio.savemat('./Results/test_faust_synthetic/' + '{}_{}.mat'.format(test_pair[0][7:10], test_pair[1][7:10]), params_to_save)
 
 
 def main(_):
