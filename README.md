@@ -18,7 +18,7 @@ Link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Un
 ```
 https://github.com/orlitany/DeepFunctionalMaps
 ## Getting Started
-These instructions will guide you how to run the experiments that appear in the paper **"Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)**. The reader might be also interested in the supervised algorithm **"Deep Functional Maps:
+This tutorial will guide you how to run the experiments that appear in the paper **"Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)**. The reader might be also interested in the supervised algorithm **"Deep Functional Maps:
 Structured Prediction for Dense Shape Correspondence" (ICCV 2017)**, for which the code is provided in https://github.com/orlitany/DeepFunctionalMaps
 
 ### Code organization
