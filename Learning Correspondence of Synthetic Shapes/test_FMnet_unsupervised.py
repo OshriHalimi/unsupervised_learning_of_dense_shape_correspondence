@@ -1,6 +1,7 @@
 import time
 import tensorflow as tf
 import scipy.io as sio
+import os
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
@@ -86,6 +87,9 @@ def run_test():
 		params_to_save = {}
 		params_to_save['C_est'] = Ct_est_.transpose([0, 2, 1])
 		params_to_save['softCorr'] = softCorr_
+
+		if not os.path.isdir('./Results/test_faust_synthetic/'):
+			os.mkdir('./Results/test_faust_synthetic/')
 
 		sio.savemat('./Results/test_faust_synthetic/' + '{}_{}.mat'.format(test_pair[0][7:10], test_pair[1][7:10]), params_to_save)
 
