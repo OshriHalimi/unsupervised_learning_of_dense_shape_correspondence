@@ -81,6 +81,7 @@ To train the network, please run **train_FMnet_unsupervised.py**. The trained ne
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/loss_graph_git.PNG" width="1000" />
 </p>
+
 ### Predicting the correspondence on the test pairs
 First create a list of all test pairs by calling the matlab script **create_test_pairs.m**. To test the network, please run **test_FMnet_unsupervised.py**, the test results will be saved in the folder **Results\test_faust_synthetic**.
 
