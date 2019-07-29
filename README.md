@@ -68,7 +68,7 @@ We provide the original .ply files, as well as our generated .mat files. This co
 To achieve this, please run the script **\faust_calc_distance_matrix.m**. This script will calculate the geodesic distance matrices and store them in a new folder **\faust_synthetic\distance_matrix**. This processing is done in parallel, using multiple matlab workers.
 To view the geodesic distance from a source point, use the script **view_distance_matrix**. The result should be similar to this:
 <p align="center">
-  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/distance_map.PNG" width="300" />
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/distance_map.PNG" width="700" />
 </p>
 
 
