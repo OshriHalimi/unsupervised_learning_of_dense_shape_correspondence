@@ -25,7 +25,7 @@ Structured Prediction for Dense Shape Correspondence" (ICCV 2017)**, for which t
 Each folder contains the code and data for a specific experiment.
 The repository is still updating, and I intend to finish organizing and uploading the whole code very soon :)
 ### Contact Information
-For any questions regarding the code/paper, please contact me: **oshri.halimi@gmail.com**
+For any questions regarding the code/paper, please contact: **oshri.halimi@gmail.com**
 
 ## Single Pair Experiment (Self-supervised learning regime)
 ![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Capture.PNG)
