@@ -45,7 +45,7 @@ def run_test():
 	sess = tf.Session()
 
 	print('restoring graph...')
-	saver = tf.train.import_meta_graph('%s/model_unsupervised.ckpt-100.meta'%FLAGS.log_dir)
+	saver = tf.train.import_meta_graph('%s/model_unsupervised.ckpt-3000.meta'%FLAGS.log_dir)
 	saver.restore(sess, tf.train.latest_checkpoint('%s'%FLAGS.log_dir))
 	graph = tf.get_default_graph()
 
