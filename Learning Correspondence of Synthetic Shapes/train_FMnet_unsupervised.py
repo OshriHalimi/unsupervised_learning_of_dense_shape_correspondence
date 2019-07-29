@@ -106,8 +106,13 @@ def get_pair_from_ram(i_subject_model, i_subject_part, i_model, i_part, dataset)
 		input_data.update(models_train[i_model])
 
 	# m_star from dist_map
-	m_star = dist_maps[i_subject_model]
-	p_star = dist_maps[i_subject_part]
+	#m_star = dist_maps[i_subject_model]
+	#p_star = dist_maps[i_subject_part]
+	d = sio.loadmat(FLAGS.dist_maps + 'tr_reg_%.3d.mat' % i_model)
+	m_star = d['D']
+
+	d = sio.loadmat(FLAGS.dist_maps + 'tr_reg_%.3d.mat' % i_part)
+	p_star = d['D']
 
 	return input_data, m_star, p_star
 
@@ -190,7 +195,10 @@ def run_training():
 			print('loading data to ram...')
 			load_models_to_ram()
 
-			load_dist_maps()
+			#This command loads the distance matrices to RAM.
+			#If you can load all the distance matrices to RAM do it!
+			#Unless, if it is too heavy, read each time the corresponding distance matrix from the hard disk
+			#load_dist_maps()
 
 			print('starting training loop...')
 			while not sv.should_stop() and iteration < FLAGS.max_train_iter:
