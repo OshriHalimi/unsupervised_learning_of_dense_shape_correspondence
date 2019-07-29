@@ -135,7 +135,10 @@ avg_curve_unsupervised = sum(CURVES,1)/ NumberOfPairs;
 plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
 ```
 
-To plot the average geodesic error **over all the intra pairs** in faust synthetic dataset, run **calculate_geodesic_error_intra.m**. The result should be similar to this:
+To plot the average geodesic error **over all the intra pairs** in faust synthetic dataset, run **calculate_geodesic_error_intra.m**. The result should look like this:
+<p align="center">
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/intra_geo.PNG" width="400" />
+</p>
 ## Learning Correspondence of Real Scans (Unsupervised)
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/scans.png" width="500" />
