@@ -117,7 +117,7 @@ Finally, **D_model** is the distance matrix of the target shape.
 
 To plot the geodesic error curve for a test pair, run the script **calculate_geodesic_error_synthetic_faust_test_results.m**. The result should be similar to this:
 <p align="center">
-  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/test_pair_geo.PNG" width="1000" />
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/test_pair_geo.PNG" width="400" />
 </p>
 
 * **Shape collection**: To evaluate the error curve for a collection of shapes you should average the error curves of all pairs of shapes, as follows:
