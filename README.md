@@ -94,6 +94,7 @@ To evaluate the error curve for a specific pair of shapes, you need the the pred
 ```
     errs = calc_geo_err(matches, gt_matches, D_model);
     curve = calc_err_curve(errs, 0:0.001:1.0)/100;
+    plot(0:0.001:1.0, curve); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
 ```
 The functions **calc_geo_err** and **calc_err_curve** are located in the folder **\Tools**. 
 
