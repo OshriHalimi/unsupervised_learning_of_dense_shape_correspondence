@@ -4,10 +4,10 @@
 
 ![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Picture1.png)
 
-Link to the **paper**: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html
+Link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html
 
 
-The general idea is explained is the following short **video**: https://www.youtube.com/watch?v=OPKRc6uQrNg&t=155s
+The general idea is explained is the following short video: https://www.youtube.com/watch?v=OPKRc6uQrNg&t=155s
 
 **If you use this code, please cite the paper.**
 ```
