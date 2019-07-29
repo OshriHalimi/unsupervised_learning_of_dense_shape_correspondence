@@ -7,8 +7,8 @@ for i=1:20
     end
 end
 
-delete_idx = floor(pairs_list(:,1)/10) == floor(pairs_list(:,2)/10);
-pairs_list(delete_idx,:)=[];
+% delete_idx = floor(pairs_list(:,1)/10) == floor(pairs_list(:,2)/10);
+% pairs_list(delete_idx,:)=[];
 
 fileID = fopen('test_pairs.txt','w');
 for i=1:size(pairs_list,1)
