@@ -68,7 +68,7 @@ We provide the original .ply files, as well as our generated .mat files. This co
 To achieve this, please run the script **\faust_calc_distance_matrix.m**. This script will calculate the geodesic distance matrices and store them in a new folder **\faust_synthetic\distance_matrix**. This processing is done in parallel, using multiple matlab workers.
 To view the geodesic distance from a source point, use the script **view_distance_matrix**. The result should be similar to this:
 <p align="center">
-  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/distance_map.PNG" width="700" />
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/distance_map.PNG" width="300" />
 </p>
 
 
@@ -79,7 +79,7 @@ To view the geodesic distance from a source point, use the script **view_distanc
 To train the network, please run **train_FMnet_unsupervised.py**. The trained network will be saved in the folder **\Results\train_faust_synthetic**. You can edit the number of training iterations, defined in **train_FMnet_unsupervised.py**, here we use 3K mini-batch iterations. 
 * **Training loss**: During the training, we optimize the unsupervised loss and monitor the supervised loss for analysis purpose. When the training is finished, both losses are saves in **\Results\train_faust_synthetic\training_error.mat**. To visualize the losses during the training process - run the matlab script **visualize_synthetic_faust_test_results.m**. This script will produce a figure similar to figure 3 in the paper, showing a correlated decay of the unsupervised and the supervised losses. 
 <p align="center">
-  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/loss_graph_git.PNG" width="300" />
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/loss_graph_git.PNG" width="700" />
 </p>
 ### Predicting the correspondence on the test pairs
 First create a list of all test pairs by calling the matlab script **create_test_pairs.m**. To test the network, please run **test_FMnet_unsupervised.py**, the test results will be saved in the folder **Results\test_faust_synthetic**.
