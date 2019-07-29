@@ -134,7 +134,7 @@ TODO
 
 ## Learning Correspondence of PArtial Shapes (Unsupervised)
 <p align="center">
-  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/partial.png" width="500" />
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/partial.png" width="1000" />
 </p>
 
 TODO
