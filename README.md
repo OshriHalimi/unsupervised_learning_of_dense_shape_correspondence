@@ -131,4 +131,11 @@ plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gc
 </p>
 
 TODO
+
+## Learning Correspondence of PArtial Shapes (Unsupervised)
+<p align="center">
+  <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/partial.png" width="500" />
+</p>
+
+TODO
 ### To be continued ...
