@@ -43,7 +43,7 @@ for i=1:N_pairs
     CURVES(i,:) = curve;
 end
 
-avg_curve_unsupervised = sum(CURVES,1)/ NumberOfPairs;
+avg_curve_unsupervised = sum(CURVES,1)/ N_pairs;
 plot(0:0.001:1.0, avg_curve_unsupervised,'r'); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
 
 plot(0:0.001:1.0, curve); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
