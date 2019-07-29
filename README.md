@@ -87,7 +87,7 @@ First create a list of all test pairs by calling the matlab script **create_test
 
 ### Visualization
 To visualize the correspondence of a specific test pair, run the matlab script **visualize_synthetic_faust_test_results.m**.
-Note that you should edit the indices of the test pair you wish to visualize in rows: 7,8,10. The result should look similar to this:
+Note that you should edit the indices of the test pair you wish to visualize in rows: 7,8 and 10. The result should look similar to this:
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/test_pair_vis.PNG" width="1000" />
 </p>
@@ -115,7 +115,7 @@ For example, in synthetic faust:
 
 Finally, **D_model** is the distance matrix of the target shape.
 
-To plot the geodesic error curve for a test pair, run the script **calculate_geodesic_error_synthetic_faust_test_results.m** after editing the indices of the test pair in rows: 7,8,10,14. The result should be similar to this:
+To plot the geodesic error curve for a test pair, run the script **calculate_geodesic_error_synthetic_faust_test_results.m** after editing the indices of the test pair in rows: 7,8,10 and 13. The result should be similar to this:
 <p align="center">
   <img src="https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/test_pair_geo.PNG" width="400" />
 </p>
