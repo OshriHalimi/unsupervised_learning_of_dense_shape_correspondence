@@ -50,3 +50,5 @@ plot(0:0.001:1.0, curve); set(gca, 'xlim', [0 0.1]); set(gca, 'ylim', [0 1])
 
 xlabel('Geodesic error')
 ylabel('Correspondence Accuracy %')
+
+title('Geodesic error - all intra pairs')
