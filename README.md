@@ -1,5 +1,5 @@
-# Unsupervised Learning Of Dense Shape Correspondence
-## Computer Vision and Pattern Recognition (CVPR), 2019 - Oral presentation
+# Unsupervised Learning Of Dense Shape Correspondence 
+### Computer Vision and Pattern Recognition (CVPR), 2019 - Oral presentation
 **Authors: Oshri Halimi, [Or Litany](https://orlitany.github.io), [Emanuele Rodola](https://sites.google.com/site/erodola/), Alex Bronstein, Ron Kimmel**
 
 [Paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html) / [Video](https://www.youtube.com/watch?v=OPKRc6uQrNg&t=155s)
