@@ -1,13 +1,11 @@
-# "Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)
+# Unsupervised Learning Of Dense Shape Correspondence 
+### Computer Vision and Pattern Recognition (CVPR), 2019 - Oral presentation
+**Authors: Oshri Halimi, [Or Litany](https://orlitany.github.io), [Emanuele Rodola](https://sites.google.com/site/erodola/), Alex Bronstein, Ron Kimmel**
 
-**Authors: Oshri Halimi, Or Litany, Emanuele Rodola, Alex Bronstein, Ron Kimmel**
+[Paper](http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html) / [Video](https://www.youtube.com/watch?v=OPKRc6uQrNg&t=155s)
 
 ![](https://github.com/OshriHalimi/unsupervised_learning_of_dense_shape_correspondence/blob/master/Picture1.png)
 
-Link to the paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Halimi_Unsupervised_Learning_of_Dense_Shape_Correspondence_CVPR_2019_paper.html
-
-
-The general idea is explained is the following short video: https://www.youtube.com/watch?v=OPKRc6uQrNg&t=155s
 
 **If you use this code, please cite the paper.**
 ```
@@ -22,7 +20,7 @@ The general idea is explained is the following short video: https://www.youtube.
 
 ## Getting Started
 This tutorial will guide you how to run the experiments that appear in the paper **"Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)**. The reader might be also interested in the supervised algorithm **"Deep Functional Maps:
-Structured Prediction for Dense Shape Correspondence" (ICCV 2017)**, for which the code is provided in https://github.com/orlitany/DeepFunctionalMaps
+Structured Prediction for Dense Shape Correspondence" (ICCV 2017)** [paper](http://vision.in.tum.de/_media/spezial/bib/litany-iccv17.pdf)/[code](https://github.com/orlitany/DeepFunctionalMaps).
 
 ### Code organization
 Each folder contains the code and data for a specific experiment.
