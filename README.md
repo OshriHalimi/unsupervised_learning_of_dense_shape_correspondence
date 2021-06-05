@@ -18,8 +18,9 @@
 }
 ```
 
-**LICENSE
-Important Note: The license is granted only for the code and not for the data. The data we used belongs to MPI-Faust project and the preprocessed models are available here to make the paper reproduction more easy.**
+### LICENSE.txt
+Important Note: 
+The license is granted only for the code and not for the data. The data we used belongs to MPI-Faust project and the preprocessed models are available here to make the paper reproduction more easy.**
 
 ## Getting Started
 This tutorial will guide you how to run the experiments that appear in the paper **"Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)**. The reader might be also interested in the supervised algorithm **"Deep Functional Maps:
