@@ -18,6 +18,8 @@
 }
 ```
 
+**LICENSE Important Note: The license is granted only for the code and not for the data. The data we used belongs to MPI-Faust project and the preprocessed models are available here to make the paper reproduction more easy.**
+
 ## Getting Started
 This tutorial will guide you how to run the experiments that appear in the paper **"Unsupervised Learning Of Dense Shape Correspondence" (CVPR 2019)**. The reader might be also interested in the supervised algorithm **"Deep Functional Maps:
 Structured Prediction for Dense Shape Correspondence" (ICCV 2017)** [paper](http://vision.in.tum.de/_media/spezial/bib/litany-iccv17.pdf)/[code](https://github.com/orlitany/DeepFunctionalMaps).
